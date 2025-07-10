@@ -12,7 +12,10 @@
 }
 
 
-/* Footer Family */
+
+
+
+/* Footer Family  start */
 
 .footer-container {
   height: 700px;
@@ -92,6 +95,8 @@
     border-radius: 10px;
 }
 
+/* footer hover style */
+
 .btn-input:hover{
     cursor: pointer;
     color: black;
@@ -103,4 +108,6 @@
     background-color: black;
     border-radius: 10px;
 }
+
+/* footer family ended */
 
