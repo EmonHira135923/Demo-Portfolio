@@ -11,14 +11,96 @@
   font-variation-settings: "wdth" 100;
 }
 
+
+/* Footer Family */
+
 .footer-container {
-  height: 0 auto;
-  width: 0 auto;
-  background-color: #fff8f3;
-  margin: 0 auto;
+  height: 700px;
+  width: 100%;
+  background-color: #FFF8F3;
 }
 
 .footer-div-container {
   display: flex;
   gap: 50px;
+  padding: 35px 45px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: #FFF8F3;
 }
+
+.text-and-icon-container{
+    text-align: left;
+    background-color: #FFF8F3;
+    width: 50%;
+    margin-right: 100px;
+}
+
+.footer-h1{
+    margin-bottom: 15px;
+    font-size: 45px;
+    font-weight: bolder;
+    background-color: #FFF8F3;
+}
+
+.footer-p{
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: gray;
+    font-weight: normal;
+    background-color: #FFF8F3;
+}
+
+.footer-img{
+    margin-right: 25px;
+    margin-top: 15px;
+
+}
+
+/* text-and-icon-container */
+
+/* text-and-form-container */
+
+.text-and-form-container{
+    width: 50%;
+    text-align: start;
+    background-color: #FFF8F3;
+}
+
+.footer-form{
+    margin-top: 20px;
+    background-color: #FFF8F3;
+}
+
+.footer-input,.footer-textarea{
+    width: 350px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    outline-color: #FD6E0A;
+}
+
+.btn-input{
+    margin-top: 5px;
+    font-size: 25px;
+    padding: 25px;
+    color: white;
+    background-color: #FD6E0A;
+    border: 2px solid #FD6E0A;
+    border-radius: 10px;
+}
+
+.btn-input:hover{
+    cursor: pointer;
+    color: black;
+    background-color: tomato;
+}
+
+.footer-img:hover{
+    cursor: pointer;
+    background-color: black;
+    border-radius: 10px;
+}
+
