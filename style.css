@@ -110,12 +110,14 @@
   .footer-container{
     width: auto;
     margin: 0 auto;
-    text-align: center;
+    text-align: start;
     height: auto;
   }
 
   .footer-div-container {
     flex-direction: column;
+    justify-content: start;
+    align-items: start;
   }
 
   .footer-h1{
@@ -126,6 +128,10 @@
   .footer-p{
     font-size: 18px;
     font-weight: normal;
+  }
+
+  .text-and-form-container{
+    text-align: start;
   }
 
   .footer-img{
