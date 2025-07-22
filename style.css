@@ -116,27 +116,22 @@
 
   .footer-div-container {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
 
   .footer-h1{
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
   }
 
   .footer-p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal;
   }
 
   .footer-img{
-    font-size: 20px;
+    font-size: 18px;
   }
-
-  .footer-form{
-    text-align: left;
-  }
+  
 
   .footer-input,.footer-textarea{
     width: 200px;
