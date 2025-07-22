@@ -107,6 +107,10 @@
 
 @media screen and (max-width: 576px) {
 
+
+
+
+
   .footer-container{
     width: auto;
     margin: 0 auto;
@@ -135,7 +139,8 @@
   }
 
   .footer-img{
-    font-size: 18px;
+    font-size: 15px;
+    flex-direction: column;
   }
   
 
