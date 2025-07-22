@@ -110,14 +110,14 @@
   .footer-container{
     width: auto;
     margin: 0 auto;
-    text-align: left;
+    text-align: center;
     height: auto;
   }
 
   .footer-div-container {
     flex-direction: column;
-    align-items: start;
-    justify-content: start;
+    align-items: center;
+    justify-content: center;
   }
 
   .footer-h1{
@@ -134,6 +134,9 @@
     font-size: 20px;
   }
 
+  .footer-form{
+    text-align: left;
+  }
 
   .footer-input,.footer-textarea{
     width: 200px;
