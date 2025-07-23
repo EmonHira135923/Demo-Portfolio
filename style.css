@@ -173,7 +173,8 @@ main {
 @media screen and (max-width: 576px) {
   /* about me  */
 
-  .about-me-section,.about-container {
+  .about-me-section,
+  .about-container {
     /* padding: 50px 50px;
     margin-bottom: 50px;
     margin-top: 50px;
@@ -182,21 +183,36 @@ main {
     width: calc(100% - 100px);
     margin: 0 auto; */
     width: auto;
-    padding: 20px;
-    margin:  0 auto;
+    padding: 25px 25px;
+    margin: 0 auto;
+    text-align: start;
   }
 
-  .about-h1{
-    font-size: 40px;
+  .about-h1 {
+    font-size: 35px;
     font-weight: bolder;
   }
 
-  .about-p{
+  .about-p {
     font-size: 20px;
     font-weight: normal;
   }
 
+  .details-about {
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+  }
 
+  .details-about-h1 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .details-about-p {
+    font-size: 15px;
+    font-weight: normal;
+  }
 
   /* footer start */
 
@@ -207,11 +223,13 @@ main {
     height: auto;
   }
 
-  .footer-div-container,.details-about {
+  .footer-div-container,
+  .details-about {
     flex-direction: column;
   }
 
-  .text-and-icon-container,.text-and-form-container{
+  .text-and-icon-container,
+  .text-and-form-container {
     align-items: start;
     justify-content: start;
   }
@@ -236,12 +254,12 @@ main {
 
   .footer-input,
   .footer-textarea {
-    width: 300px;
+    width: 225px;
     padding: 20px;
   }
 
   .btn-input {
-    width: 180px;
+    width: 150px;
     padding: 15px;
     font-size: 20px;
   }
