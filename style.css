@@ -9,10 +9,145 @@
   font-variation-settings: "wdth" 100;
 }
 
+/* img section */
+
 img {
   max-width: 100%;
   max-height: 100%;
 }
+
+/* header section */
+
+header {
+  max-width: 1400px;
+}
+
+.header-section {
+  background-image: url("images/developer.png"), url("images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+
+/* nav start */
+
+.nav-continer {
+  background-color: rgba(128, 128, 128, 0.62);
+  padding: 20px;
+  width: auto;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-items span {
+  color: red;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.nav-items h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.nav-items button {
+  padding: 20px 15px;
+  width: 200px;
+  background-color: #fd6e0a;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.nav-items button:hover {
+  cursor: pointer;
+  background-color: tomato;
+  color: black;
+}
+
+/* nav ended */
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.hero-text-container {
+  width: 50%;
+  padding: 50px;
+  text-align: start;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 60px;
+  gap: 30px;
+}
+
+.hero-text-container h3,
+h4 {
+  font-size: 35px;
+  font-weight: normal;
+}
+
+.hero-text-container h1 {
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 45px;
+  margin-bottom: 25px;
+}
+
+.hero-text-container p {
+  font-size: 25px;
+  color: gray;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+.hero-img-container {
+  width: 50%;
+  text-align: center;
+}
+
+.hero-img {
+  height: 550px;
+  width: 550px;
+  border-radius: 10px;
+  align-items: center;
+  display: block;
+}
+
+.hero-btn {
+  padding: 25px;
+  width: 200px;
+  border: none;
+  border-radius: 25px;
+  font-size: 20px;
+  background-color: black;
+  color: aqua;
+}
+
+.c-btn {
+  margin-left: 25px;
+  color: red;
+  background-color: black;
+}
+
+.hero-btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: blue;
+}
+
+/* header ended */
 
 /* main section */
 main {
@@ -238,6 +373,40 @@ main {
 /* small device responsive */
 
 @media screen and (max-width: 576px) {
+  /* nav var */
+  .nav-continer {
+    text-align: center;
+    margin: 0 auto;
+    width: auto;
+  }
+
+  .nav-items {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .header-section {
+    text-align: center;
+  }
+
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .hero-btn {
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+
   /* about me  */
   .about-me-section,
   .about-container {
