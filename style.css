@@ -122,7 +122,6 @@ h4 {
   width: 550px;
   border-radius: 10px;
   align-items: center;
-  display: block;
 }
 
 .hero-btn {
@@ -274,6 +273,61 @@ main {
   font-weight: normal;
   margin-bottom: 15px;
   color: gray;
+}
+
+/* resume column */
+
+.summary-section {
+  margin: 0 auto;
+  max-width: 1120px;
+}
+
+.summary-heading {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.resume-container h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.resume-container h3 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.resume-container h6 {
+  font-weight: normal;
+  font-size: 25px;
+  color: gray;
+  margin-bottom: 30px;
+}
+
+.resume-container p {
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: gray;
+}
+
+.education-contain,
+.experience-contain {
+  margin-top: 30px;
 }
 
 /* Footer Family  start */
@@ -457,6 +511,22 @@ main {
 
   .container-skill {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .resume-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .resume-container h1 {
+    font-size: 35px;
+  }
+
+  .resume-container h3,
+  h6,
+  p {
+    font-size: 20px;
   }
 
   /* footer start */
